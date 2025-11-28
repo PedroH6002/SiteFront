@@ -1,0 +1,392 @@
+html{
+  background-color: #f2ebd8;
+  width: 100%;
+  height: 100%;
+}
+body{
+width: 100%;
+height: 100%;
+}
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 140px;
+  background-color: #c5e0dc;
+  align-items: center;
+  font-family: "Baloo 2", sans-serif;
+  font-size:x-large;
+    
+}
+p{
+
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 50px;
+color: #f2ebd8;
+
+}
+.DiscBanner{
+color: #f2ebd8;
+}
+
+#headerIn{
+  background-color: #bbcd77;
+  width: 50%;
+  height: 100px;
+  align-self: flex-end;
+  margin: 0 100px 0 0;
+  border-radius: 100px 100px 0 0;
+  border-style: solid;
+  border-width: 17px 17px 0 17px;
+  border-color: #f2ebd8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+#carrinho{
+
+  width: 100px;
+  height: 100px;
+  margin: 10px 90px 0 50px;
+}
+
+#headerIn a{
+color: #fffde6;
+text-decoration: none;
+padding: 0 2.5rem 0 2.5rem;
+position: relative;
+font-family: sans-serif;
+
+}
+
+#headerIn a:not(:last-child)::after {
+content: "";
+position: absolute;
+right: 0;
+bottom: 10px;
+top: 0px;
+width: 7px;
+height: 30px;
+background-color: #F2EFCE;
+border-radius: 10px; /* bordas arredondadas */
+box-shadow:
+0 -52px 0 #f2ebd8,
+0 50px 0 #f2ebd8;
+}
+
+#banner{
+height: 80%;
+width: 80%;
+background-color: #bbcd77;
+}
+
+#section-banner{
+width: 100%;
+height: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#section1{
+display: flex;
+margin: 50px 0 -80px 150px;
+width: 80%;
+height: 70%;
+}
+#textoSection{
+width: 70%;
+height: 70%;
+background-color: #c5e0dc;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 0 0 50px;
+}
+
+#img1{
+height: 50%;
+width: 40%;
+position: relative;
+left: 150px;
+bottom: 20px;
+}
+
+#img2{
+height: 70%;
+width: 60%;
+position: relative;
+left: 20px;
+bottom: 20px;
+
+}
+
+.MiniBanner{
+width: 45%;
+height: 15%;
+display: flex;
+align-items: center;
+padding: 0 0 0 100px;
+border-radius: 10px;
+
+}
+
+#BannerPequeno1{
+  background-color: #bbcd77;
+  
+}
+#BannerPequeno2{
+background-color: #c5e0dc;
+margin: 0 0 50px 0;
+}
+
+
+title{
+color: #f2ebd8;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+padding: 20px;
+margin: 40px 0 40px 0 ;
+}
+
+.produto-card {
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+padding: 16px 16px 40px 16px;
+justify-content: center;
+text-align: center;
+width: 90%;
+height: 350px;
+}
+.produto-card:hover{
+transform: scale(1.05);
+}
+
+.produto-card img {
+height: 85%;
+width: 90%;
+object-fit: contain;
+border-radius: 8px;
+}
+
+.produto-card h2 {
+font-size: 18px;
+margin: 10px 0 5px;
+}
+
+.produto-card p {
+font-size: 14px;
+color: #555;
+}
+
+.preco {
+display: block;
+margin-top: 10px;
+font-weight: bold;
+color: #007b00;
+}
+
+#textEntrega{
+color: white;
+font-size: 30px;
+}
+
+
+
+.grid-horizontal {
+display: grid;
+grid-auto-flow: column;
+grid-auto-columns: 250px;
+
+overflow-x: auto;
+padding: 20px;
+scroll-snap-type: x mandatory;
+}
+
+.produto-card p {
+font-size: 14px;
+color: #555;
+margin: 20px;
+}
+
+.preco {
+display: block;
+margin-top: 10px;
+font-weight: bold;
+color: #007b00;
+}
+
+.bannerContato1{
+
+width: 70%;
+height: 15%;
+margin: 40px 0 0 350px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 30px;
+border-radius: 20px;
+}
+
+.bannerContato2{
+
+width: 70%;
+height: 15%;
+margin: 40px 0 0 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 30px;
+border-radius: 20px;
+
+}
+
+#bannerContato1-1{
+  background-color: #dc8c7e;
+
+}
+
+#bannerContato2-1{
+  background-color: #bce8a6;
+}
+
+#bannerContato1-2{
+  background-color: #ddacd9;
+
+}
+
+
+
+#img3{
+height: 130px;
+width: 130px;
+margin: 0 40px 0 0;
+}
+
+.imgContato{
+width: 250px;
+height: 250px;
+margin: 100px;
+}
+
+#divContato{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#textoSectionMateriais{
+width: 70%;
+height: 500px;
+background-color: #c5e0dc;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 0 0 50px;
+}
+
+#TextoMateriais{
+font-size: 33px;
+ line-height: 1.2; /* valor recomendado para boa leitura */
+}
+#textDestaque{
+background-color: #007b00;
+}
+
+#section2{
+display: flex;
+margin: 10px 0 -80px 150px;
+width: 80%;
+height: 70%;
+}
+
+#BannerPequeno3{
+  background-color: #bbcd77;
+  margin: 0 0 50px 0;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px 0 0;
+  width: 45%;
+  height: 15%;
+}
+
+#BannerPequeno4{
+  background-color: #bbcd77;
+  margin: 110px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px 0 0;
+  width: 45%;
+  height: 15%;
+}
+
+#TextoSobre{
+font-size: 25px;
+ line-height: 1.2; /* valor recomendado para boa leitura */
+color: white;
+padding: 30px;
+}
+
+#textoSectionSobre{
+width: 80%;
+height: 355px;
+background-color: #c5e0dc;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 0 0 10px;
+}
+
+#Bibliona{
+height: 85%;
+width: 90%;
+}
+
+#SobreBaixo{
+  background-color: aliceblue;
+  position: relative;
+  left: 910px;
+  bottom: 330px;
+  width: 550px;
+  line-height: 1.2;
+}
+
+#TextoSobreBaixo{
+font-size: 25px;
+padding: 20px;
+color: #bbcd77;
+
+}
+
+#img3{
+height: 70%;
+width: 40%;
+position: relative;
+}
+#img21{
+height: 100px;
+}
+
+#img31{
+height: 100px;
+margin: 0 25px 0 0;
+}
+
+#img32{
+height: 100px;
+margin: 0 25px 0 0;
+}
+
+.imagensProdutos{
+border-radius: 30px;
+}
