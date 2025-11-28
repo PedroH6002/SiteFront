@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/SiteFront/static/css/main.80ff4bc1.css",
+    "main.js": "/SiteFront/static/js/main.d704caf4.js",
+    "static/js/453.74ed8cd0.chunk.js": "/SiteFront/static/js/453.74ed8cd0.chunk.js",
+    "static/media/papeis.jpg": "/SiteFront/static/media/papeis.62a9fb37ca22908289fa.jpg",
+    "static/media/sejaforte.jpg": "/SiteFront/static/media/sejaforte.d62dccd1d95ac4ab0111.jpg",
+    "static/media/Castelo.jpg": "/SiteFront/static/media/Castelo.d02fede66397195b2d10.jpg",
+    "static/media/fofos.jpg": "/SiteFront/static/media/fofos.db2885294b6c1ca5a8e9.jpg",
+    "static/media/criancaLendo.webp": "/SiteFront/static/media/criancaLendo.4e01458b5a969f3b5531.webp",
+    "static/media/Bibliona.jpg": "/SiteFront/static/media/Bibliona.bb237e2fedc4294ce441.jpg",
+    "static/media/bonecos.jpg": "/SiteFront/static/media/bonecos.3053270456b5af91fa42.jpg",
+    "static/media/Reis e Profetas.jpg": "/SiteFront/static/media/Reis e Profetas.d6c39f6443529cb4e84b.jpg",
+    "static/media/instagram.png": "/SiteFront/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/whatsapp.png": "/SiteFront/static/media/whatsapp.c826b0165560636baf0b.png",
+    "static/media/relogio.png": "/SiteFront/static/media/relogio.586fb54278bafe9f6f5e.png",
+    "static/media/pin-de-localizacao.png": "/SiteFront/static/media/pin-de-localizacao.360bdced38378fa10df5.png",
+    "static/media/delivery.png": "/SiteFront/static/media/delivery.b4aaa8c3cd7a1c422468.png",
+    "index.html": "/SiteFront/index.html",
+    "main.80ff4bc1.css.map": "/SiteFront/static/css/main.80ff4bc1.css.map",
+    "main.d704caf4.js.map": "/SiteFront/static/js/main.d704caf4.js.map",
+    "453.74ed8cd0.chunk.js.map": "/SiteFront/static/js/453.74ed8cd0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80ff4bc1.css",
+    "static/js/main.d704caf4.js"
+  ]
+}
